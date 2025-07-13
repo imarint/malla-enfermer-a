@@ -11,8 +11,95 @@ document.addEventListener("DOMContentLoaded", () => {
         { nombre: "Antropología", creditos: 3, requisitos: "Ninguno", formacion: "identidad" },
       ],
     },
-    // (Puedes continuar pegando los demás semestres aquí)
-    // ...
+    {
+      semestre: 2,
+      asignaturas: [
+        { nombre: "Integrado Fisiología-Fisiopatología I", creditos: null, requisitos: "Morfología Básica", formacion: "disciplinar" },
+        { nombre: "Bioquímica General", creditos: null, requisitos: "Química General y Orgánica", formacion: "disciplinar" },
+        { nombre: "Microbiología General", creditos: null, requisitos: "Biología Celular", formacion: "disciplinar" },
+        { nombre: "Salud Digital", creditos: null, requisitos: "Ninguno", formacion: "disciplinar" },
+        { nombre: "Salud Intercultural", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Calidad, Seguridad y Prevención de Infecciones Asociadas a la Atención en Salud (IAAS)", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+      ],
+    },
+    {
+      semestre: 3,
+      asignaturas: [
+        { nombre: "Integrado Fisiología-Fisiopatología II", creditos: null, requisitos: "Integrado Fisiología-Fisiopatología I", formacion: "disciplinar" },
+        { nombre: "Farmacología General", creditos: null, requisitos: "Integrado Fisiología-Fisiopatología I", formacion: "disciplinar" },
+        { nombre: "Salud Poblacional", creditos: null, requisitos: "Ninguno", formacion: "disciplinar" },
+        { nombre: "Enfermería en el Curso de Vida", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Educación para la Salud", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Comunicación Interdisciplinar", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+      ],
+    },
+    {
+      semestre: 4,
+      asignaturas: [
+        { nombre: "Administración para la Gestión del Cuidado", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Gestión del Cuidado del Adulto I", creditos: null, requisitos: "Enfermería en el Curso de Vida", formacion: "profesional" },
+        { nombre: "Bases de Práctica Basada en Evidencia", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Ética", creditos: null, requisitos: "Ninguno", formacion: "identidad" },
+      ],
+    },
+    {
+      semestre: 5,
+      asignaturas: [
+        { nombre: "Epidemiología", creditos: null, requisitos: "Ninguno", formacion: "disciplinar" },
+        { nombre: "Bioestadística y Salud", creditos: null, requisitos: "Ninguno", formacion: "disciplinar" },
+        { nombre: "Gestión de Proyectos en Salud", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Gestión del Cuidado del Adulto II", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Medio Ambiente, Salud y Enfermería", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Persona y Sociedad", creditos: null, requisitos: "Ninguno", formacion: "identidad" },
+      ],
+    },
+    {
+      semestre: 6,
+      asignaturas: [
+        { nombre: "Metodología de la Investigación", creditos: null, requisitos: "Ninguno", formacion: "disciplinar" },
+        { nombre: "Liderazgo y Toma de Decisiones en Salud", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Gestión del Cuidado en la Persona Mayor", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Enfermería en Salud Mental y Psiquiatría", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Electivo I: Formación e Identidad", creditos: null, requisitos: "Ninguno", formacion: "identidad" },
+      ],
+    },
+    {
+      semestre: 7,
+      asignaturas: [
+        { nombre: "Bioética", creditos: null, requisitos: "Ninguno", formacion: "disciplinar" },
+        { nombre: "Gerencia y Gobernanza para la Gestión en Salud", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Gestión del Cuidado en la Niñez y Adolescencia", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Enfermería en Salud Familiar y Comunitaria", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Proyecto de Investigación", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Electivo II: Formación e Identidad", creditos: null, requisitos: "Ninguno", formacion: "identidad" },
+      ],
+    },
+    {
+      semestre: 8,
+      asignaturas: [
+        { nombre: "Liderazgo para la Gestión del Cambio en Equipos de Salud", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Enfermería en Oncología y Cuidados Paliativos", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Enfermería de Urgencia", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Práctica Basada en la Evidencia", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Electivo III: Formación e Identidad", creditos: null, requisitos: "Ninguno", formacion: "identidad" },
+      ],
+    },
+    {
+      semestre: 9,
+      asignaturas: [
+        { nombre: "Internado Clínico Asistencial", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Electivo I", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Gestión de Carrera y Desarrollo Profesional", creditos: null, requisitos: "Ninguno", formacion: "empleabilidad" },
+      ],
+    },
+    {
+      semestre: 10,
+      asignaturas: [
+        { nombre: "Internado Salud Familiar y Comunitaria", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Internado Gestión en Salud", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+        { nombre: "Electivo II", creditos: null, requisitos: "Ninguno", formacion: "profesional" },
+      ],
+    }
   ];
 
   const formacionClases = {
